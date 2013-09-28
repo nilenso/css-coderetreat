@@ -11,6 +11,11 @@ input {
   -moz-box-sizing: border-box;
 }
 
+@font-face {
+  font-family: 'BebasNeue';
+  src: url('fonts/bebas-webfont.woff');
+}
+
 .main-nav-background {
   background-color: #2F4B66;
   height: 60px;
@@ -29,14 +34,13 @@ input {
 }
 
 .main-nav-links {
-  font-weight: bold;
   line-height: 60px;
 }
 
 .header-footer-link {
-  font-weight: bold;
+  font-family: BebasNeue,  sans-serif;
+  font-size: 1.4em;
   color: #F6EED7;
-  font-family: sans-serif;
 }
 
 .main-nav-link {
@@ -47,7 +51,6 @@ input {
 .main-nav-link:first-child {
   margin-left: 0;
 }
-
 
 .language-link {
   margin-left: 66px;
