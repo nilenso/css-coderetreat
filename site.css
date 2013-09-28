@@ -1,0 +1,39 @@
+body { margin: 0;}
+
+header {
+  background-color: #2F4B66;
+  height: 60px;
+}
+
+.main-nav {
+  width: 980px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.logo {
+ float: left;
+ margin-top: 8px;
+}
+
+.main-nav-links {
+  text-align: right;
+}
+
+.main-nav-link {
+  font-family: "BebasNeueRegular", sans-serif;
+  font-weight: bold;
+  line-height: 60px;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-left: 10px;
+  color: #F6EED7;
+}
+
+.language-link {
+  text-decoration: none;
+  margin-left: 65px;
+  color: #F6EED7;
+  font-weight: bold;
+}
+
